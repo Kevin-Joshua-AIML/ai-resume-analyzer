@@ -1,0 +1,116 @@
+{
+    "SKILLS": {
+        "programming": [
+            "python", "java", "c", "c++", "c#", "javascript", "typescript",
+            "go", "rust", "php", "perl", "ruby", "matlab", "r", "scala", "kotlin", "swift"
+        ],
+        "web": [
+            "html", "css", "sass", "bootstrap", "tailwind",
+            "react", "angular", "vue", "next.js",
+            "node.js", "express.js", "django", "flask",
+            "rest api", "graphql"
+        ],
+        "database": [
+            "sql", "mysql", "postgresql", "mongodb",
+            "firebase", "redis", "sqlite", "oracle"
+        ],
+        "data_science": [
+            "machine learning", "deep learning", "nlp",
+            "natural language processing", "data analysis",
+            "data visualization", "pandas", "numpy",
+            "scikit-learn", "tensorflow", "pytorch",
+            "matplotlib", "seaborn"
+        ],
+        "tools": [
+            "git", "github", "gitlab",
+            "docker", "kubernetes",
+            "linux", "bash", "shell scripting",
+            "jenkins", "ci/cd",
+            "photoshop", "illustrator", "figma",
+            "dreamweaver", "3ds max"
+        ],
+        "cloud": [
+            "aws", "azure", "google cloud",
+            "terraform", "ansible",
+            "serverless", "lambda"
+        ],
+        "mobile": [
+            "android", "flutter", "react native",
+            "swift", "kotlin", "ios"
+        ],
+        "testing": [
+            "unit testing", "integration testing",
+            "selenium", "junit", "pytest"
+        ],
+        "concepts": [
+            "data structures", "algorithms",
+            "object oriented programming", "oop",
+            "operating systems", "computer networks",
+            "database management systems", "dbms"
+        ],
+        "soft_skills": [
+            "communication", "teamwork", "leadership",
+            "problem solving", "time management",
+            "critical thinking"
+        ]
+    },
+    "ROLE_KEYWORDS": {
+        "Data Scientist": [
+            "machine learning", "deep learning", "pandas", "numpy",
+            "data analysis", "nlp", "tensorflow", "pytorch"
+        ],
+        "Web Developer": [
+            "html", "css", "javascript", "react", "angular",
+            "node.js", "frontend", "backend"
+        ],
+        "Backend Developer": [
+            "api", "database", "sql", "node.js", "django", "flask"
+        ],
+        "Frontend Developer": [
+            "html", "css", "react", "vue", "ui", "ux"
+        ],
+        "DevOps Engineer": [
+            "docker", "kubernetes", "aws", "ci/cd", "jenkins"
+        ],
+        "Mobile Developer": [
+            "android", "flutter", "react native", "swift"
+        ],
+        "Software Engineer": [
+            "java", "c++", "algorithms", "data structures"
+        ]
+    },
+    "ROLE_CATEGORIES": {
+        "Data Scientist": ["programming", "data_science", "tools"],
+        "Web Developer": ["programming", "web", "database"],
+        "Backend Developer": ["programming", "database", "tools"],
+        "Frontend Developer": ["web", "programming"],
+        "DevOps Engineer": ["tools", "cloud"],
+        "Mobile Developer": ["mobile", "programming"],
+        "Software Engineer": ["programming", "concepts"],
+        "General": ["programming", "tools"]
+    },
+    "SYNONYMS": {
+        "machine learning": ["ml"],
+        "natural language processing": ["nlp"],
+        "javascript": ["js"],
+        "postgresql": ["postgres"],
+        "amazon web services": ["aws"],
+        "google cloud": ["gcp"],
+        "object oriented programming": ["oop"],
+        "database management systems": ["dbms"],
+        "user interface": ["ui"],
+        "user experience": ["ux"]
+    },
+    "CATEGORY_WEIGHTS": {
+        "programming": 3,
+        "data_science": 3,
+        "cloud": 3,
+        "mobile": 3,
+        "web": 2,
+        "database": 2,
+        "tools": 2,
+        "testing": 2,
+        "concepts": 2,
+        "soft_skills": 1
+    }
+}
